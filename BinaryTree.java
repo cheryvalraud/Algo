@@ -33,11 +33,11 @@ class BinaryTree {
     }
 
     public void inorderRec(Node root) {
-        // Null check to avoid NullPointerException
+        
         if (root != null) {
-            inorderRec(root.left); // Traverse the left subtree
-            System.out.print(root.data + " -> "); // Print the node's data
-            inorderRec(root.right); // Traverse the right subtree
+            inorderRec(root.left); 
+            System.out.print(root.data + " -> "); 
+            inorderRec(root.right); 
         }
     }
 }
@@ -52,6 +52,6 @@ class Main {
         tree.insert(12);
         tree.insert(15);
 
-        tree.inorder(); // This will print the inorder traversal
+        tree.inorder(); 
     }
 }
