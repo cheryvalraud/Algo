@@ -74,3 +74,12 @@ class Main {
          tree.postOrderTraversal(tree.root);      
     }
 }
+
+/*
+Output: preOrderTraversal: 
+1 -> 2 -> 4 -> 5 -> 3 -> 6 -> 
+inOrderTraversal: 
+4 -> 2 -> 5 -> 1 -> 3 -> 6 -> 
+postOrderTraversal: 
+4 -> 5 -> 2 -> 6 -> 3 -> 1 -> 
+*/
