@@ -1,8 +1,3 @@
-/*
-TASK: ride
-LANG: JAVA
-*/
-
 import java.util.*;
 
 public class ride {
