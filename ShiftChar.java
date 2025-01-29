@@ -8,7 +8,7 @@ class Main {
         for(int i=0; i< s.length(); i++){
             char currentChar = s.charAt(i);
             char transformedChar = (char)(((currentChar - 'a' + k) % 26) + 'a'); // for z : 122 - 97 = 25;
-                                                                                 // 25 + 1 = 26 then 26 % 26 = 0 then we get back to a
+                                                                                 // 25 + 1 = 26 then 26 % 26 = 0 then we go back to a
             stb.append(transformedChar);
         }
         return stb.toString();
