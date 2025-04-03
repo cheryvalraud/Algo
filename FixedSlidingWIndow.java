@@ -1,3 +1,5 @@
+// Given an array of integers, find the maximum sum of any contiguous subarray of size k.
+
 import java.util.*;
 
 class Main {
